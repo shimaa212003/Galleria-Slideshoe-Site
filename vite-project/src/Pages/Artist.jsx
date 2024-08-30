@@ -1,5 +1,5 @@
 import { NavLink, useParams } from 'react-router-dom'
-import { data } from '../../../data/data'
+import { data } from '../../data/data'
 import "./Artist.css"
 import  CloseImage  from '../components/CloseImage/CloseImage'
 import { useState } from 'react'
@@ -71,7 +71,7 @@ export function Artist() {
               <p>{thisData.artist.name}</p>
             </div>
             <div className="footer_controls">
-              
+
               <NavLink
                 to={`/artist/${thisData.id - 1}`}
                 title="Artist"

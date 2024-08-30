@@ -5,7 +5,7 @@ import Header from "../components/Header/Header"
 
 import Footer from "../../src/components/Footer/Footer"
 
-import SlideShowContext from "../../../Contexts/SlideShowContext"
+import SlideShowContext from "../../Contexts/SlideShowContext"
 import { useState } from "react"
 
 function Layout(){

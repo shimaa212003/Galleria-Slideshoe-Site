@@ -1,7 +1,7 @@
 import { useContext } from "react"
 import "./Header.css"
 import {NavLink} from "react-router-dom"
-import SlideShowContext from "../../../../Contexts/SlideShowContext"
+import SlideShowContext from "../../../Contexts/SlideShowContext"
 
 function Header(){
 const {open, setOpen} = useContext(SlideShowContext)

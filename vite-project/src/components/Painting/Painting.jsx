@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import SlideShowContext from "../../../../Contexts/SlideShowContext"
+import SlideShowContext from "../../../Contexts/SlideShowContext"
 import "./Painting.css"
 import { NavLink } from "react-router-dom"
 
